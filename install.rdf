@@ -6,10 +6,11 @@
 
 		<em:id>{455D905A-D37C-4643-A9E2-F6FEFAA0424A}</em:id>
 		<em:name>RefControl</em:name>
-		<em:version>0.8.16</em:version>
+		<em:version>0.8.2</em:version>
 		<em:type>2</em:type>
 		<em:description>Control what gets sent as the HTTP Referer on a per-site basis.</em:description>
 		<em:creator>James Abbatiello</em:creator>
+		<em:developer>Nick Wilde/BriarMoon Design</em:developer>
 		<em:contributor>Firefox 4.0 compatibility - Nils Maier</em:contributor>
 		<em:contributor>ca-AD Locale - el_libre</em:contributor>
 		<em:contributor>cs-CZ Locale - MartinZubek</em:contributor>
