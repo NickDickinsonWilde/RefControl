@@ -1,6 +1,6 @@
 
 var refcontrolOverlay = {
-	
+
 	monitoredPrefs:
 	{
 		enabled: 0,
@@ -13,7 +13,7 @@ var refcontrolOverlay = {
 		var consoleService = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
 		consoleService.logStringMessage("RefControl: " + aMessage);
 	},
-	
+
 	dumpEx: function dumpEx(aException)
 	{
 		Components.utils.reportError(aException);
@@ -29,7 +29,7 @@ var refcontrolOverlay = {
 	{
 		return document.getElementById('refcontrol-strings').getString(sStringName);
 	},
-	
+
 	isOurURL: function isOurURL(sURL)
 	{
 		var svcIO = Components.classes["@mozilla.org/network/io-service;1"].getService(Components.interfaces.nsIIOService);
@@ -45,11 +45,11 @@ var refcontrolOverlay = {
 	{
 		return typeof(contextMenu.linkURL) == 'function' ? contextMenu.linkURL() : contextMenu.linkURL;
 	},
-	
+
 	openOptions: function openOptions(sSite)
 	{
-		var winOptions = openDialog('chrome://refcontrol/content/refcontrolOptions.xul', 
-					'RefControlOptions', 
+		var winOptions = openDialog('chrome://refcontrol/content/refcontrolOptions.xul',
+					'RefControlOptions',
 					'centerscreen,chrome,resizable,dialog=no',
 					(sSite !== undefined) ? { contextSite: sSite } : undefined);
 		try {
@@ -57,23 +57,24 @@ var refcontrolOverlay = {
 		} catch (ex) {
 		}
 	},
-	
+
 	openOptionsURL: function openOptionsURL(sURL)
 	{
 		var svcIO = Components.classes["@mozilla.org/network/io-service;1"].getService(Components.interfaces.nsIIOService);
-		this.openOptions(svcIO.newURI(sURL, null, null).host);
+		var site = svcIO.newURI(sURL, null, null);
+		this.openOptions(site.scheme + "://" + site.host);
 	},
 
 	toolsOptions: function toolsOptions()
 	{
 		this.openOptions();
 	},
-	
+
 	contextOptions: function contextOptions()
 	{
 		var sSite;
 		try {
-			sSite = window._content.document.location.hostname;
+			sSite = window._content.document.location.protocol + "//" + window._content.document.location.hostname;
 		} catch (ex) {
 		}
 		this.openOptions(sSite);
@@ -83,12 +84,12 @@ var refcontrolOverlay = {
 	{
 		this.openOptionsURL(this.getLinkURL(gContextMenu));
 	},
-	
+
 	contextOptionsImage: function contextOptionsImage()
 	{
 		this.openOptionsURL(gContextMenu.imageURL);
 	},
-	
+
 	onLoad: function onLoad()
 	{
 		window.addEventListener("unload", this, false);
@@ -97,7 +98,7 @@ var refcontrolOverlay = {
 
 		this.prefBranch = refcontrolPrefs.getPrefBranch();
 		this.prefBranch.QueryInterface(Components.interfaces.nsIPrefBranchInternal);
-		
+
 		if (this.prefBranch.getBoolPref('first_run'))
 		{
 			this.prefBranch.setBoolPref('first_run', false);
@@ -145,13 +146,13 @@ var refcontrolOverlay = {
 
 	onPopupShowing: function onPopupShowing(e)
 	{
-		var bShow = this.bShowContextMenu && 
+		var bShow = this.bShowContextMenu &&
 					!gContextMenu.isTextSelected && !gContextMenu.onLink && !gContextMenu.onImage && !gContextMenu.onTextInput &&
 					this.isOurURL(gContextMenu.target.ownerDocument.location.href);		// gContextMenu.docURL
-		var bShowLink = this.bShowContextMenu && 
-					gContextMenu.onLink && 
+		var bShowLink = this.bShowContextMenu &&
+					gContextMenu.onLink &&
 					this.isOurURL(this.getLinkURL(gContextMenu));
-		var bShowImage = this.bShowContextMenu && 
+		var bShowImage = this.bShowContextMenu &&
 					gContextMenu.onImage &&
 					this.isOurURL(gContextMenu.imageURL);
 		gContextMenu.showItem('refcontrol_sep', bShow || bShowLink || bShowImage);
@@ -182,24 +183,24 @@ var refcontrolOverlay = {
 		}
 		return undefined;
 	},
-	
+
 	onChangeEnabled: function onChangeEnabled(oPrefBranch)
 	{
 		this.bEnabled = oPrefBranch.getBoolPref('enabled');
 		this.updateToolbarButton();
 	},
-	
+
 	onChangeStatusbar: function onChangeStatusbar(oPrefBranch)
 	{
 		this.showStatusbar = oPrefBranch.getIntPref("statusbar");
 		this.updateStatusbar();
 	},
-	
+
 	onChangeContextMenu: function onChangeContextMenu(oPrefBranch)
 	{
 		this.bShowContextMenu = oPrefBranch.getBoolPref('contextMenu');
 	},
-	
+
 	// Implement nsIObserver
 	observe: function observe(aSubject, aTopic, aData)
 	{
@@ -259,7 +260,7 @@ var refcontrolOverlay = {
 		sbText.setAttribute("tooltiptext", sRefDisp);
 		sb.removeAttribute("collapsed");
 	},
-	
+
 	// Implement nsIWebProgressListener
 	onLocationChange: function onLocationChange(aWebProgress, aRequest, aLocation)
 	{

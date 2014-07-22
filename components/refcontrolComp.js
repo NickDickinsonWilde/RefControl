@@ -155,8 +155,10 @@ refcontrolObserver.prototype = {
 
 		// handle wildcarding
 		// try matching "www.foo.example.com", "foo.example.com", "example.com", ...
-		for (var s = oHttpChannel.URI.host; s != ""; s = s.replace(/^.*?(\.|$)/, ""))
+		for (var s = oHttpChannel.URI.scheme + "://" + oHttpChannel.URI.host; s != ""; s = s.replace(/^.*?(\.|$)/, ""))
 		{
+			//Components.utils.import("resource://gre/modules/devtools/Console.jsm");
+//console.log("RefControl: " + s);
 			if (this.adjustRef(oHttpChannel, s))
 				return;
 		}
