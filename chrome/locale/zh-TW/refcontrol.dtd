@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl 選項...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "將本頁加入 RefControl...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "將鏈結加入 RefControl...">
+<!ENTITY contextmenu.optionslink.accesskey "F">
+<!ENTITY contextmenu.optionsimage.label "將圖片加入 RefControl...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl 選項">
+<!ENTITY options.file.label "檔案">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "匯入...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "匯出...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "關閉">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "選項">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "啟用 RefControl">
+<!ENTITY options.enable.accesskey "E">
+<!ENTITY options.statusbar.label "在狀態列顯示">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "在右鍵選單顯示可用功能">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "無">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "圖示">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "說明">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "RefControl 說明">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "關於">
+<!ENTITY options.about.accesskey "A">
+<!ENTITY options.instructions.label "可以針對每個網站指定你想要送出的 Referer。">
+<!ENTITY options.sitecolumn.label "網站">
+<!ENTITY options.actioncolumn.label "動作">
+<!ENTITY options.add.label "新增網站">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "編輯網站">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "移除網站">
+<!ENTITY options.remove.accesskey "R">
+<!ENTITY options.removeall.label "移除全部網站">
+<!ENTITY options.removeall.accesskey "L">
+<!ENTITY options.default.label "將不在上列的網站設定為:">
+<!ENTITY options.editdefault.label "編輯">
+<!ENTITY options.editdefault.accesskey "D">
+<!ENTITY edit.title "RefControl 網站屬性">
+<!ENTITY edit.site.label "網站:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "動作:">
+<!ENTITY edit.action.normal.label "一般 - 送出真實的 referrer">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "封鎖 - 送出空白的 referrer">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "偽裝 - 送出網站根目錄 (http://SITE/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "自訂:">
+<!ENTITY edit.action.custom.accesskey "C">
+<!ENTITY edit.3rdparty.label "只在從它站鏈入該站時執行">
+<!ENTITY edit.3rdparty.accesskey "3">

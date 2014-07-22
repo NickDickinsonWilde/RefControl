@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "리프컨트롤 설정(R)...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "이 사이트에 대한 리프컨트롤 설정(C)...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "링크된 사이트에 대한 리프컨트롤 설정(F)...">
+<!ENTITY contextmenu.optionslink.accesskey "F">
+<!ENTITY contextmenu.optionsimage.label "그림의 사이트에 대한 리프컨트롤 설정(R)...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "리프컨트롤 설정">
+<!ENTITY options.file.label "파일(F)">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "가져오기(I)...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "내보내기(E)...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "닫기(C)">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "설정(O)">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "리프컨트롤 사용(E)">
+<!ENTITY options.enable.accesskey "E">
+<!ENTITY options.statusbar.label "상태표시줄 보기(S)">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "팝업 메뉴에서 보기(C)">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "없음(N)">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "아이콘(I)">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "리퍼러(R)">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "도움말(H)">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "리프컨트롤 도움말(H)">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "리프컨트롤은(A)">
+<!ENTITY options.about.accesskey "A">
+<!ENTITY options.instructions.label "각각의 사이트에 대해 사용될 리퍼러를 지정할 수 있습니다.">
+<!ENTITY options.sitecolumn.label "사이트">
+<!ENTITY options.actioncolumn.label "보낼 리퍼러">
+<!ENTITY options.add.label "사이트 추가(A)">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "사이트 수정(E)">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "사이트 제거(R)">
+<!ENTITY options.remove.accesskey "R">
+<!ENTITY options.removeall.label "모든 사이트 제거(L)">
+<!ENTITY options.removeall.accesskey "L">
+<!ENTITY options.default.label "목록 외 사이트에 대한 기본값:">
+<!ENTITY options.editdefault.label "수정(D)">
+<!ENTITY options.editdefault.accesskey "D">
+<!ENTITY edit.title "리프컨트롤 사이트 속성">
+<!ENTITY edit.site.label "사이트(S):">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "리퍼러:">
+<!ENTITY edit.action.normal.label "정상(N) - 실제 리퍼러 보냄">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "차단(B) - 리퍼러 보내지 않음">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "위장(F) - 사이트 루트 주소 보냄 (http://사이트/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "사용자 지정(C):">
+<!ENTITY edit.action.custom.accesskey "C">
+<!ENTITY edit.3rdparty.label "사이트 외부로부터의 접근일 때만 적용(3)">
+<!ENTITY edit.3rdparty.accesskey "3">

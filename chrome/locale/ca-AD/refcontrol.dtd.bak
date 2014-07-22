@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "Opcions de RefControl">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "Opcions RefControl per a aquesta web...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "Opcions de RefControl per als enllaços de la web...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "Opcions RefControl per a les imatges de la web...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Opcions de RefControl">
+<!ENTITY options.file.label "Arxiu">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "Importa...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exporta...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Tanca">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "Opcions">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "Habilita RefControl">
+<!ENTITY options.enable.accesskey "E">
+<!ENTITY options.statusbar.label "Mostra a la barra d\'estat">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "Mostra en el menú de Context">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "Cap">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "Icona">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Referent">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Ajuda">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "Ajuda de RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "Sobre">
+<!ENTITY options.about.accesskey "A">
+<!ENTITY options.instructions.label "Pots especificar el referent que serà utilitzat per a cada web.">
+<!ENTITY options.sitecolumn.label "Lloc Web">
+<!ENTITY options.actioncolumn.label "Acció">
+<!ENTITY options.add.label "Afegeix Web">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "Edita Web">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "Esborra web">
+<!ENTITY options.remove.accesskey "R">
+<!ENTITY options.removeall.label "Esborra totes les webs">
+<!ENTITY options.removeall.accesskey "I">
+<!ENTITY options.default.label "Per defecte a les webs que no són llistades:">
+<!ENTITY options.editdefault.label "Edita">
+<!ENTITY options.editdefault.accesskey "d">
+<!ENTITY edit.title "Propietats de la web per a RefControl">
+<!ENTITY edit.site.label "Lloc Web:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Acció:">
+<!ENTITY edit.action.normal.label "Normal - envia l\'actual referent">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Bloca - no enviïs cap referent">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Farga - envia l\'atrel d\'aquesta web (http://Web/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "Personalitzat:">
+<!ENTITY edit.action.custom.accesskey "C">
+<!ENTITY edit.3rdparty.label "Peticions de tercers només">
+<!ENTITY edit.3rdparty.accesskey "3">

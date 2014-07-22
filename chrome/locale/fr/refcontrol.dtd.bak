@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "Options de RefControl...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "Options de RefControl pour ce site...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "Options de RefControl pour le site du lien...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "Options de RefControl pour le site de l\'image...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Options de RefControl">
+<!ENTITY options.file.label "Fichier">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "Importer">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exporter">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Fermer">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "Options">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "Activer RefControl">
+<!ENTITY options.enable.accesskey "A">
+<!ENTITY options.statusbar.label "Affichage dans la barre d\'état">
+<!ENTITY options.statusbar.accesskey "b">
+<!ENTITY options.contextmenu.label "Afficher dans le menu contextuel">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "Aucun">
+<!ENTITY options.statusbar.none.accesskey "n">
+<!ENTITY options.statusbar.icon.label "Icône">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Aide">
+<!ENTITY options.help.accesskey "i">
+<!ENTITY options.refcontrolhelp.label "Aide de RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "i">
+<!ENTITY options.about.label "À propos">
+<!ENTITY options.about.accesskey "p">
+<!ENTITY options.instructions.label "Vous pouvez préciser le referer qui sera utilisé pour chaque site">
+<!ENTITY options.sitecolumn.label "Site">
+<!ENTITY options.actioncolumn.label "Comportement">
+<!ENTITY options.add.label "Ajouter un site">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "Éditer un site">
+<!ENTITY options.edit.accesskey "s">
+<!ENTITY options.remove.label "Supprimer un site">
+<!ENTITY options.remove.accesskey "u">
+<!ENTITY options.removeall.label "Supprimer tous les sites">
+<!ENTITY options.removeall.accesskey "t">
+<!ENTITY options.default.label "Comportement par défaut pour les sites non répertoriés :">
+<!ENTITY options.editdefault.label "Éditer">
+<!ENTITY options.editdefault.accesskey "d">
+<!ENTITY edit.title "Paramètres de RefControl pour ce site">
+<!ENTITY edit.site.label "Site :">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Comportement :">
+<!ENTITY edit.action.normal.label "Normal - envoyer le véritable referrer (l\'adresse de provenance)">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blocage - ne pas envoyer de referer">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Leurre - envoyer la racine de ce site (http://SITE/)">
+<!ENTITY edit.action.forge.accesskey "L">
+<!ENTITY edit.action.custom.label "Personnalisé :">
+<!ENTITY edit.action.custom.accesskey "P">
+<!ENTITY edit.3rdparty.label "Seulement pour les requêtes d\'applications tierces.">
+<!ENTITY edit.3rdparty.accesskey "t">

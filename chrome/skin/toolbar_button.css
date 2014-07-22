@@ -1,0 +1,7 @@
+#refcontrol-toolbarbutton {
+  list-style-image: url("chrome://refcontrol/skin/icon_enabled.png");
+}
+
+#refcontrol-toolbarbutton[enabled="false"] {	
+  list-style-image: url("chrome://refcontrol/skin/icon_disabled.png");
+}

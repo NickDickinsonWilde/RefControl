@@ -1,0 +1,69 @@
+<!ENTITY	toolsmenu.options.label					"RefControl Options...">
+<!ENTITY	toolsmenu.options.accesskey				"R">
+<!ENTITY	contextmenu.options.label				"RefControl Options for This Site...">
+<!ENTITY	contextmenu.options.accesskey			"C">
+<!ENTITY	contextmenu.optionslink.label			"RefControl Options for Link's Site...">
+<!ENTITY	contextmenu.optionslink.accesskey		"f">
+<!ENTITY	contextmenu.optionsimage.label			"RefControl Options for Image's Site...">
+<!ENTITY	contextmenu.optionsimage.accesskey		"R">
+<!ENTITY	toolbarbutton.label						"RefControl">
+<!ENTITY	toolbarbutton.tooltip					"RefControl">
+
+<!ENTITY	options.title							"RefControl Options">
+<!ENTITY	options.file.label						"File">
+<!ENTITY	options.file.accesskey					"F">
+<!ENTITY	options.import.label					"Import...">
+<!ENTITY	options.import.accesskey				"I">
+<!ENTITY	options.export.label					"Export...">
+<!ENTITY	options.export.accesskey				"E">
+<!ENTITY	options.close.label						"Close">
+<!ENTITY	options.close.accesskey					"C">
+<!ENTITY	options.options.label					"Options">
+<!ENTITY	options.options.accesskey				"O">
+<!ENTITY	options.enable.label					"Enable RefControl">
+<!ENTITY	options.enable.accesskey				"E">
+<!ENTITY	options.statusbar.label					"Statusbar display">
+<!ENTITY	options.statusbar.accesskey				"S">
+<!ENTITY	options.contextmenu.label				"Show in Context Menu">
+<!ENTITY	options.contextmenu.accesskey			"C">
+<!ENTITY	options.statusbar.none.label			"None">
+<!ENTITY	options.statusbar.none.accesskey		"N">
+<!ENTITY	options.statusbar.icon.label			"Icon">
+<!ENTITY	options.statusbar.icon.accesskey		"I">
+<!ENTITY	options.statusbar.referer.label			"Referer">
+<!ENTITY	options.statusbar.referer.accesskey		"R">
+<!ENTITY	options.help.label						"Help">
+<!ENTITY	options.help.accesskey					"H">
+<!ENTITY	options.refcontrolhelp.label			"RefControl Help">
+<!ENTITY	options.refcontrolhelp.accesskey		"H">
+<!ENTITY	options.about.label						"About">
+<!ENTITY	options.about.accesskey					"A">
+<!ENTITY	options.instructions.label				"You can specify the Referer that will be used for each site.">
+<!ENTITY	options.sitecolumn.label				"Site">
+<!ENTITY	options.actioncolumn.label				"Action">
+<!ENTITY	options.add.label						"Add Site">
+<!ENTITY	options.add.accesskey					"A">
+<!ENTITY	options.edit.label						"Edit Site">
+<!ENTITY	options.edit.accesskey					"E">
+<!ENTITY	options.remove.label					"Remove Site">
+<!ENTITY	options.remove.accesskey				"R">
+<!ENTITY	options.removeall.label					"Remove All Sites">
+<!ENTITY	options.removeall.accesskey				"l">
+<!ENTITY	options.default.label					"Default for sites not listed:">
+<!ENTITY	options.editdefault.label				"Edit">
+<!ENTITY	options.editdefault.accesskey			"d">
+
+<!ENTITY	edit.title								"RefControl Site Properties">
+<!ENTITY	edit.site.label							"Site:">
+<!ENTITY	edit.site.accesskey						"S">
+<!ENTITY	edit.action.label						"Action:">
+<!ENTITY	edit.action.normal.label				"Normal - send the actual referrer">
+<!ENTITY	edit.action.normal.accesskey			"N">
+<!ENTITY	edit.action.block.label					"Block - send no referrer">
+<!ENTITY	edit.action.block.accesskey				"B">
+<!ENTITY	edit.action.forge.label					"Forge - send the root of this site (http://SITE/)">
+<!ENTITY	edit.action.forge.accesskey				"F">
+<!ENTITY	edit.action.custom.label				"Custom:">
+<!ENTITY	edit.action.custom.accesskey			"C">
+<!ENTITY	edit.3rdparty.label						"3rd Party requests only">
+<!ENTITY	edit.3rdparty.accesskey					"3">

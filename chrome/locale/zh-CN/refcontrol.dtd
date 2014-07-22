@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl 选项">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "将本页加入 RefControl …">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "将链接加入 RefControl …">
+<!ENTITY contextmenu.optionslink.accesskey "F">
+<!ENTITY contextmenu.optionsimage.label "将图片加入 RefControl …">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl 选项">
+<!ENTITY options.file.label "文件">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "导入…">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "导出…">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "关闭">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "选项">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "启用 RefControl">
+<!ENTITY options.enable.accesskey "E">
+<!ENTITY options.statusbar.label "在状态栏显示">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "在快捷菜单显示可用功能">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "不显示">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "图标">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "帮助">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "RefControl 帮助">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "关于">
+<!ENTITY options.about.accesskey "A">
+<!ENTITY options.instructions.label "针对每个站点指定你想要送出的 Referer.">
+<!ENTITY options.sitecolumn.label "站点">
+<!ENTITY options.actioncolumn.label "动作">
+<!ENTITY options.add.label "添加站点">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "编辑站点">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "移除站点">
+<!ENTITY options.remove.accesskey "R">
+<!ENTITY options.removeall.label "移除所有站点">
+<!ENTITY options.removeall.accesskey "I">
+<!ENTITY options.default.label "将未列出的站点默认设置为：">
+<!ENTITY options.editdefault.label "编辑">
+<!ENTITY options.editdefault.accesskey "D">
+<!ENTITY edit.title "RefControl 站点属性">
+<!ENTITY edit.site.label "站点：">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "动作：">
+<!ENTITY edit.action.normal.label "正常 - 发送真实的 Referrer">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "屏蔽 - 发送空白的 Referrer">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "伪装 - 发送站点根目录 ( http://SITE/ )">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "自定义：">
+<!ENTITY edit.action.custom.accesskey "C">
+<!ENTITY edit.3rdparty.label "只在从其他站点链入时执行">
+<!ENTITY edit.3rdparty.accesskey "3">

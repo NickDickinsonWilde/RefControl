@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "Opcje RefControl">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "Opcje RefControl dla tej strony...">
+<!ENTITY contextmenu.options.accesskey "O">
+<!ENTITY contextmenu.optionslink.label "Opcje RefControl dla odnośnika...">
+<!ENTITY contextmenu.optionslink.accesskey "L">
+<!ENTITY contextmenu.optionsimage.label "Opcje RefControl dla stron z obrazami">
+<!ENTITY contextmenu.optionsimage.accesskey "G">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Opcje RefControl">
+<!ENTITY options.file.label "Plik">
+<!ENTITY options.file.accesskey "P">
+<!ENTITY options.import.label "Importuj...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Eksportuj...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Zamknij">
+<!ENTITY options.close.accesskey "Z">
+<!ENTITY options.options.label "Opcje">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "Włącz RefControl">
+<!ENTITY options.enable.accesskey "W">
+<!ENTITY options.statusbar.label "Wyświetlaj pasek Stanu">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "Pokazuj w menu Kontekstowym">
+<!ENTITY options.contextmenu.accesskey "K">
+<!ENTITY options.statusbar.none.label "Brak">
+<!ENTITY options.statusbar.none.accesskey "B">
+<!ENTITY options.statusbar.icon.label "Ikona">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Odsyłacz">
+<!ENTITY options.statusbar.referer.accesskey "O">
+<!ENTITY options.help.label "Pomoc">
+<!ENTITY options.help.accesskey "m">
+<!ENTITY options.refcontrolhelp.label "Pomoc RefControl'a">
+<!ENTITY options.refcontrolhelp.accesskey "P">
+<!ENTITY options.about.label "O programie">
+<!ENTITY options.about.accesskey "O">
+<!ENTITY options.instructions.label "Możesz określić odsyłacz który będzie użyty dla poszczególnych stron.">
+<!ENTITY options.sitecolumn.label "Strona">
+<!ENTITY options.actioncolumn.label "Akcja">
+<!ENTITY options.add.label "Dodaj strone">
+<!ENTITY options.add.accesskey "D">
+<!ENTITY options.edit.label "Edytuj strone">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "Usuń strone">
+<!ENTITY options.remove.accesskey "U">
+<!ENTITY options.removeall.label "Usuń wszystkie strony">
+<!ENTITY options.removeall.accesskey "W">
+<!ENTITY options.default.label "Domyślny dla stron które nie są na liście">
+<!ENTITY options.editdefault.label "Edytuj">
+<!ENTITY options.editdefault.accesskey "d">
+<!ENTITY edit.title "Właściwości strony">
+<!ENTITY edit.site.label "Strona:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Akcja:">
+<!ENTITY edit.action.normal.label "Normalny - wyślij prawdziwy odsyłacz">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blokuj - nie wysyłaj żadnego odsyłacza">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Oszukany - wyślij stronę główną (http://strona/)">
+<!ENTITY edit.action.forge.accesskey "O">
+<!ENTITY edit.action.custom.label "Własne:">
+<!ENTITY edit.action.custom.accesskey "W">
+<!ENTITY edit.3rdparty.label "Tylko dla zapytań z innych stron">
+<!ENTITY edit.3rdparty.accesskey "Z">

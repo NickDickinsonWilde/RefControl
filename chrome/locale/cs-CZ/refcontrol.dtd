@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl nastavení...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "Nastavení RefControl pro tuto stránku...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "Nastavení RefControl pro odkazovanou stránku...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "Nastavení RefControl pro stránku obrázku...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl nastavení">
+<!ENTITY options.file.label "Soubor">
+<!ENTITY options.file.accesskey "S">
+<!ENTITY options.import.label "Importovat...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exportovat...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Zavřít">
+<!ENTITY options.close.accesskey "Z">
+<!ENTITY options.options.label "Nastavení">
+<!ENTITY options.options.accesskey "N">
+<!ENTITY options.enable.label "Povolit RefControl">
+<!ENTITY options.enable.accesskey "P">
+<!ENTITY options.statusbar.label "Zobrazit ve stavovém řádku">
+<!ENTITY options.statusbar.accesskey "Z">
+<!ENTITY options.contextmenu.label "Zobrazit v kontextovém menu.">
+<!ENTITY options.contextmenu.accesskey "K">
+<!ENTITY options.statusbar.none.label "Nic">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "Ikona">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Nápověda">
+<!ENTITY options.help.accesskey "v">
+<!ENTITY options.refcontrolhelp.label "Nápověda RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "R">
+<!ENTITY options.about.label "O aplikaci">
+<!ENTITY options.about.accesskey "a">
+<!ENTITY options.instructions.label "Zde můžete nastavit referer, který bude použitý pro danou stránku.">
+<!ENTITY options.sitecolumn.label "Stránka">
+<!ENTITY options.actioncolumn.label "Činnost">
+<!ENTITY options.add.label "Přidat stránku">
+<!ENTITY options.add.accesskey "P">
+<!ENTITY options.edit.label "Upravit stránku">
+<!ENTITY options.edit.accesskey "U">
+<!ENTITY options.remove.label "Odebrat stránku">
+<!ENTITY options.remove.accesskey "O">
+<!ENTITY options.removeall.label "Odebrat všechny stránky">
+<!ENTITY options.removeall.accesskey "e">
+<!ENTITY options.default.label "Výchozí pro stránky, které nejsou v seznamu.">
+<!ENTITY options.editdefault.label "Upravit">
+<!ENTITY options.editdefault.accesskey "r">
+<!ENTITY edit.title "RefControl vlastnosti stránky">
+<!ENTITY edit.site.label "Stránka">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Činnost">
+<!ENTITY edit.action.normal.label "Normální - odešle aktuální referer">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blokovat - neodešle žádný referer">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Vynutit - pošle referer rootu webu (http://stranka/)">
+<!ENTITY edit.action.forge.accesskey "V">
+<!ENTITY edit.action.custom.label "Vlastní">
+<!ENTITY edit.action.custom.accesskey "l">
+<!ENTITY edit.3rdparty.label "Pouze při vyžádání 3. strany">
+<!ENTITY edit.3rdparty.accesskey "o">

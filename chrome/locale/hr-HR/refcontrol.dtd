@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl Opcije...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "RefControl opcije za ovu stranicu...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "RefControl opcije za stranicu poveznice">
+<!ENTITY contextmenu.optionslink.accesskey "v">
+<!ENTITY contextmenu.optionsimage.label "RefControl opcije za stranicu slike...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl Opcije">
+<!ENTITY options.file.label "Datoteka">
+<!ENTITY options.file.accesskey "D">
+<!ENTITY options.import.label "Uvezi...">
+<!ENTITY options.import.accesskey "U">
+<!ENTITY options.export.label "Izvezi...">
+<!ENTITY options.export.accesskey "v">
+<!ENTITY options.close.label "Zatvori">
+<!ENTITY options.close.accesskey "Z">
+<!ENTITY options.options.label "Opcije">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "Omogući RefControl">
+<!ENTITY options.enable.accesskey "m">
+<!ENTITY options.statusbar.label "Prikaz statusne trake">
+<!ENTITY options.statusbar.accesskey "s">
+<!ENTITY options.contextmenu.label "Prikaži u kontekstnom izborniku">
+<!ENTITY options.contextmenu.accesskey "k">
+<!ENTITY options.statusbar.none.label "Ništa">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "Ikona">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Pokazivač">
+<!ENTITY options.statusbar.referer.accesskey "P">
+<!ENTITY options.help.label "Pomoć">
+<!ENTITY options.help.accesskey "ć">
+<!ENTITY options.refcontrolhelp.label "RefControl Pomoć">
+<!ENTITY options.refcontrolhelp.accesskey "P">
+<!ENTITY options.about.label "O">
+<!ENTITY options.about.accesskey "O">
+<!ENTITY options.instructions.label "MOžete odrediti pokazivač koji će se koristiti za svaku stranicu.">
+<!ENTITY options.sitecolumn.label "Stranica">
+<!ENTITY options.actioncolumn.label "Akcija">
+<!ENTITY options.add.label "Dodaj stranicu">
+<!ENTITY options.add.accesskey "D">
+<!ENTITY options.edit.label "Uredi stranicu">
+<!ENTITY options.edit.accesskey "e">
+<!ENTITY options.remove.label "Ukloni stranicu">
+<!ENTITY options.remove.accesskey "U">
+<!ENTITY options.removeall.label "Ukloni sve stranice">
+<!ENTITY options.removeall.accesskey "s">
+<!ENTITY options.default.label "Zadano za stranice koje nisu na popisu:">
+<!ENTITY options.editdefault.label "Uredi">
+<!ENTITY options.editdefault.accesskey "r">
+<!ENTITY edit.title "RefControl svojstva stranice">
+<!ENTITY edit.site.label "Stranica:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Akcija:">
+<!ENTITY edit.action.normal.label "Normalno - pošalji stvarni pokazivač">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blokiraj - nemoj slati pokazivač">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Falsificiraj - pošalji ishodište ove stranice (http://STRANICA/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "Prilagođeno">
+<!ENTITY edit.action.custom.accesskey "r">
+<!ENTITY edit.3rdparty.label "Samo zahtjevi 3-ih strana">
+<!ENTITY edit.3rdparty.accesskey "3">

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://refcontrol/locale/refcontrol.dtd">
+
+<dialog id="RefControlEdit"
+		title="&edit.title;"
+		buttons="accept, cancel"
+        style="width: 40em"
+        onload="refcontrolEdit.onLoad();"
+        ondialogaccept="return refcontrolEdit.onOK();"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<stringbundle id="refcontrol-strings" src="chrome://refcontrol/locale/refcontrol.properties"/>
+	<script type="application/x-javascript" src="chrome://refcontrol/content/refcontrolEdit.js"/>
+
+	<groupbox>
+		<grid flex="1">
+			<columns>
+				<column/>
+				<column flex="1"/>
+			</columns>
+		
+			<rows>
+				<row>
+					<label value="&edit.site.label;" accesskey="&edit.site.accesskey;" control="fldSite"/>
+					<textbox id="fldSite"/>
+				</row>
+
+				<row>
+					<label value="&edit.action.label;"/>
+					<vbox>
+						<radiogroup id="fldActionGroup" oncommand="refcontrolEdit.onActionChange(event);">
+							<radio id="fldActionNormal" label="&edit.action.normal.label;" accesskey="&edit.action.normal.accesskey;"/>
+							<radio id="fldActionBlock" label="&edit.action.block.label;" accesskey="&edit.action.block.accesskey;"/>
+							<radio id="fldActionForge" label="&edit.action.forge.label;" accesskey="&edit.action.forge.accesskey;"/>
+							<hbox>
+								<radio id="fldActionCustom" label="&edit.action.custom.label;" accesskey="&edit.action.custom.accesskey;"/>
+								<textbox id="fldAction" flex="1"/>
+							</hbox>
+						</radiogroup>
+						<checkbox id="fld3rdParty" label="&edit.3rdparty.label;" accesskey="&edit.3rdparty.accesskey;"/>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</groupbox>
+
+</dialog>

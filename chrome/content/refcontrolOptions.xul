@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://refcontrol/content/refcontrolOptions.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://refcontrol/locale/refcontrol.dtd">
+
+<dialog id="RefControlOptions"
+		title="&options.title;"
+		buttons="accept, cancel"
+        onload="refcontrolOptions.onLoad();"
+        ondialogaccept="return refcontrolOptions.onOK();"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<stringbundle id="refcontrol-strings" src="chrome://refcontrol/locale/refcontrol.properties"/>
+	<script type="application/x-javascript" src="chrome://refcontrol/content/refcontrolOptions.js"/>
+	<script type="application/x-javascript" src="chrome://refcontrol/content/refcontrolPrefs.js"/>
+
+	<toolbox id="tboxMenu">
+		<menubar id="menu">
+			<menu id="mnuFile" label="&options.file.label;" accesskey="&options.file.accesskey;">
+				<menupopup id="popupFile">
+					<menuitem id="mnuImport"
+							label="&options.import.label;"
+							accesskey="&options.import.accesskey;"
+							oncommand="refcontrolOptions.onImport()"/>
+					<menuitem id="mnuExport"
+							label="&options.export.label;"
+							accesskey="&options.export.accesskey;"
+							oncommand="refcontrolOptions.onExport()"/>
+					<menuseparator/>
+					<menuitem id="mnuClose"
+							label="&options.close.label;"
+							accesskey="&options.close.accesskey;"
+							oncommand="window.close()"/>
+				</menupopup>
+			</menu>
+			<menu id="mnuOptions" label="&options.options.label;" accesskey="&options.options.accesskey;">
+				<menupopup id="refcontrol-popupOptions" onpopupshowing="return refcontrolPrefs.onPopupShowing(event)">
+					<menuitem type="checkbox"
+							value="enabled"
+							id="refcontrol-mnuEnabled" 
+							label="&options.enable.label;"
+							accesskey="&options.enable.accesskey;"
+							oncommand="refcontrolPrefs.onChangeCheckboxPref(event)"/>
+					<menuseparator/>
+					<menu id="refcontrol-mnuStatusbar" label="&options.statusbar.label;" accesskey="&options.statusbar.accesskey;">
+						<menupopup>
+							<menuitem type="radio"
+									name="statusbar"
+									value="0"
+									id="refcontrol-mnuStatusbarNone"
+									label="&options.statusbar.none.label;"
+									accesskey="&options.statusbar.none.accesskey;"
+									oncommand="refcontrolPrefs.onChangeRadioPref(event)"/>
+							<menuitem type="radio"
+									name="statusbar"
+									value="2"
+									id="refcontrol-mnuStatusbarReferer"
+									label="&options.statusbar.referer.label;"
+									accesskey="&options.statusbar.referer.accesskey;"
+									oncommand="refcontrolPrefs.onChangeRadioPref(event)"/>
+						</menupopup>
+					</menu>
+					<menuitem type="checkbox"
+							value="contextMenu"
+							id="refcontrol-mnuContextMenu" 
+							label="&options.contextmenu.label;"
+							accesskey="&options.contextmenu.accesskey;"
+							oncommand="refcontrolPrefs.onChangeCheckboxPref(event)"/>
+				</menupopup>
+			</menu>
+			<menu id="mnuHelp" label="&options.help.label;" accesskey="&options.help.accesskey;">
+				<menupopup>
+					<menuitem id="mnuRefControlHelp"
+							label="&options.refcontrolhelp.label;"
+							accesskey="&options.refcontrolhelp.accesskey;"
+							oncommand="refcontrolOptions.onHelp()"/>
+					<menuseparator/>
+					<menuitem id="mnuAbout"
+							label="&options.about.label;"
+							accesskey="&options.about.accesskey;"
+							oncommand="refcontrolOptions.onAbout()"/>
+				</menupopup>
+			</menu>
+		</menubar>
+	</toolbox>
+
+<vbox id="boxMain" flex="1">
+	<label value="&options.instructions.label;"/>
+	<separator class="thin"/>
+
+	<tree id="actionsTree" flex="1"
+		hidecolumnpicker="true"
+		ondblclick="refcontrolOptions.onActionsDblClick(event)"
+		onkeypress="refcontrolOptions.onActionsKeyPress(event)"
+		onselect="refcontrolOptions.onActionsSelected();">
+		<treecols>
+			<treecol id="siteCol" label="&options.sitecolumn.label;" flex="1" persist="width"/>
+			<splitter class="tree-splitter"/>
+			<treecol id="actionCol" label="&options.actioncolumn.label;" flex="3" persist="width"/>
+		</treecols>
+		<treechildren/>
+	</tree>
+
+	<separator class="thin"/>
+
+	<hbox>
+		<button id="btnAdd"       label="&options.add.label;"       accesskey="&options.add.accesskey;"			oncommand="refcontrolOptions.onAdd()"/>
+		<button id="btnEdit"      label="&options.edit.label;"      accesskey="&options.edit.accesskey;"		oncommand="refcontrolOptions.onEdit()"/>
+		<button id="btnRemove"    label="&options.remove.label;"    accesskey="&options.remove.accesskey;"		oncommand="refcontrolOptions.onRemove()"/>
+		<button id="btnRemoveAll" label="&options.removeall.label;" accesskey="&options.removeall.accesskey;"	oncommand="refcontrolOptions.onRemoveAll()"/>
+	</hbox>
+	<separator/>
+
+	<hbox align="center">
+		<label value="&options.default.label;" control="btnEditDefault"/>
+		<textbox id="txtDefault" value="" disabled="true" flex="1"/>
+		<button id="btnEditDefault" label="&options.editdefault.label;" accesskey="&options.editdefault.accesskey;" oncommand="refcontrolOptions.onEditDefault()"/>
+	</hbox>
+	<separator class="thin"/>
+
+</vbox>
+
+</dialog>

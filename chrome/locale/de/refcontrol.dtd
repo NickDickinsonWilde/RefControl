@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl Optionen ...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "RefControl Optionen für diese Seite ...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "RefControl Optionen für den Link ...">
+<!ENTITY contextmenu.optionslink.accesskey "L">
+<!ENTITY contextmenu.optionsimage.label "RefControl Optionen für das Bild ...">
+<!ENTITY contextmenu.optionsimage.accesskey "B">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl Optionen">
+<!ENTITY options.file.label "Datei">
+<!ENTITY options.file.accesskey "D">
+<!ENTITY options.import.label "Importieren ...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exportieren ...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Schliessen">
+<!ENTITY options.close.accesskey "S">
+<!ENTITY options.options.label "Optionen">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "RefControl aktivieren">
+<!ENTITY options.enable.accesskey "a">
+<!ENTITY options.statusbar.label "Statuszeile">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "Im Kontextmenü anzeigen">
+<!ENTITY options.contextmenu.accesskey "K">
+<!ENTITY options.statusbar.none.label "Keine">
+<!ENTITY options.statusbar.none.accesskey "K">
+<!ENTITY options.statusbar.icon.label "Symbol">
+<!ENTITY options.statusbar.icon.accesskey "S">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Hilfe">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "RefControl Hilfe">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "Über">
+<!ENTITY options.about.accesskey "Ü">
+<!ENTITY options.instructions.label "Sie können für jede einzelne Seite den zu sendenden Referer vorgeben.">
+<!ENTITY options.sitecolumn.label "Seite">
+<!ENTITY options.actioncolumn.label "Aktion">
+<!ENTITY options.add.label "Seite hinzufügen">
+<!ENTITY options.add.accesskey "h">
+<!ENTITY options.edit.label "Seite bearbeiten">
+<!ENTITY options.edit.accesskey "e">
+<!ENTITY options.remove.label "Seite löschen">
+<!ENTITY options.remove.accesskey "l">
+<!ENTITY options.removeall.label "Alle Seiten löschen">
+<!ENTITY options.removeall.accesskey "A">
+<!ENTITY options.default.label "Standard für alle nicht aufgeführten Seiten:">
+<!ENTITY options.editdefault.label "Bearbeiten">
+<!ENTITY options.editdefault.accesskey "B">
+<!ENTITY edit.title "RefControl Seiten-Eigenschaften">
+<!ENTITY edit.site.label "Seite:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Aktion:">
+<!ENTITY edit.action.normal.label "Normal - aktuellen Referer senden">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blockieren - keinen Referer senden">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Ersetzen - Stammadresse dieser Seite senden (http://SITE/)">
+<!ENTITY edit.action.forge.accesskey "E">
+<!ENTITY edit.action.custom.label "Spezifisch:">
+<!ENTITY edit.action.custom.accesskey "S">
+<!ENTITY edit.3rdparty.label "Aktion gilt nur für Links zu anderen Domains">
+<!ENTITY edit.3rdparty.accesskey "A">

@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "Επιλογές RefControl">
+<!ENTITY toolsmenu.options.accesskey "Ε">
+<!ENTITY contextmenu.options.label "Επιλογές RefControl γι\' αυτό τον ιστότοπο">
+<!ENTITY contextmenu.options.accesskey "τ">
+<!ENTITY contextmenu.optionslink.label "Επιλογές RefControl για τον ιστότοπο του δεσμού...">
+<!ENTITY contextmenu.optionslink.accesskey "δ">
+<!ENTITY contextmenu.optionsimage.label "Επιλογές RefControl για τον ιστότοπο της εικόνας">
+<!ENTITY contextmenu.optionsimage.accesskey "κ">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Επιλογές RefControl">
+<!ENTITY options.file.label "Αρχείο">
+<!ENTITY options.file.accesskey "Α">
+<!ENTITY options.import.label "Εισαγωγή">
+<!ENTITY options.import.accesskey "ι">
+<!ENTITY options.export.label "Εξαγωγή">
+<!ENTITY options.export.accesskey "ω">
+<!ENTITY options.close.label "Έξοδος">
+<!ENTITY options.close.accesskey "ξ">
+<!ENTITY options.options.label "Επιλογές">
+<!ENTITY options.options.accesskey "Ε">
+<!ENTITY options.enable.label "Ενεργοποίηση του RefControl">
+<!ENTITY options.enable.accesskey "Ε">
+<!ENTITY options.statusbar.label "Προβολή στη γραμμή κατάστασης">
+<!ENTITY options.statusbar.accesskey "γ">
+<!ENTITY options.contextmenu.label "Προβολή στο μενού περιεχομένου">
+<!ENTITY options.contextmenu.accesskey "π">
+<!ENTITY options.statusbar.none.label "Απόκρυψη">
+<!ENTITY options.statusbar.none.accesskey "Α">
+<!ENTITY options.statusbar.icon.label "Εικονίδιο">
+<!ENTITY options.statusbar.icon.accesskey "ν">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Βοήθεια">
+<!ENTITY options.help.accesskey "Β">
+<!ENTITY options.refcontrolhelp.label "Βοήθεια RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "Β">
+<!ENTITY options.about.label "Περί">
+<!ENTITY options.about.accesskey "Π">
+<!ENTITY options.instructions.label "Μπορείτε να ορίσετε το Referer που θα αποστέλλετε για κάθε ιστότοπο.">
+<!ENTITY options.sitecolumn.label "Ιστότοπος">
+<!ENTITY options.actioncolumn.label "Ενέργεια">
+<!ENTITY options.add.label "Προσθήκη ιστότοπου">
+<!ENTITY options.add.accesskey "Π">
+<!ENTITY options.edit.label "Επεξεργασία ιστότοπου">
+<!ENTITY options.edit.accesskey "Ε">
+<!ENTITY options.remove.label "Αφαίρεση ιστότοπου">
+<!ENTITY options.remove.accesskey "Α">
+<!ENTITY options.removeall.label "Αφαίρεση όλων των ιστότοπων">
+<!ENTITY options.removeall.accesskey "φ">
+<!ENTITY options.default.label "Αρχική ρύθμιση για ιστότοπους που δεν είναι στη λίστα">
+<!ENTITY options.editdefault.label "Επεξεργασία">
+<!ENTITY options.editdefault.accesskey "ρ">
+<!ENTITY edit.title "Ρυθμίσεις ιστότοπων του RefControl">
+<!ENTITY edit.site.label "Ιστότοπος :">
+<!ENTITY edit.site.accesskey "Ι">
+<!ENTITY edit.action.label "Ενέργεια :">
+<!ENTITY edit.action.normal.label "Κανονική - αποστολή του γνήσιου referer">
+<!ENTITY edit.action.normal.accesskey "Κ">
+<!ENTITY edit.action.block.label "Μπλοκάρισμα - μη αποστολή referer">
+<!ENTITY edit.action.block.accesskey "Μ">
+<!ENTITY edit.action.forge.label "Πλαστογράφηση - αποστολή βασικού καταλόγου ιστότοπου (http://SITE/)">
+<!ENTITY edit.action.forge.accesskey "Π">
+<!ENTITY edit.action.custom.label "Προσαρμοσμένη">
+<!ENTITY edit.action.custom.accesskey "ρ">
+<!ENTITY edit.3rdparty.label "Αιτήματα μόνο από τρίτους">
+<!ENTITY edit.3rdparty.accesskey "Α">

@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl: Inställningar...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "RefControl: Inställningar för denna webbplats...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "RefControl: Inställningar för länkens webbplats...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "RefControl: Inställningar för bildens webbplats...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Inställningar för RefControl">
+<!ENTITY options.file.label "Arkiv">
+<!ENTITY options.file.accesskey "A">
+<!ENTITY options.import.label "Importera...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exportera...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Stäng">
+<!ENTITY options.close.accesskey "S">
+<!ENTITY options.options.label "Inställningar">
+<!ENTITY options.options.accesskey "I">
+<!ENTITY options.enable.label "Aktivera RefControl">
+<!ENTITY options.enable.accesskey "C">
+<!ENTITY options.statusbar.label "Visning i statusfältet">
+<!ENTITY options.statusbar.accesskey "V">
+<!ENTITY options.contextmenu.label "Visa i snabbmenyn">
+<!ENTITY options.contextmenu.accesskey "m">
+<!ENTITY options.statusbar.none.label "Inget">
+<!ENTITY options.statusbar.none.accesskey "n">
+<!ENTITY options.statusbar.icon.label "Ikon">
+<!ENTITY options.statusbar.icon.accesskey "k">
+<!ENTITY options.statusbar.referer.label "Referenssida">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Hjälp">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "Hjälp om RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "Om">
+<!ENTITY options.about.accesskey "O">
+<!ENTITY options.instructions.label "Du kan ange referenssidan som kommer att användas för varje webbplats.">
+<!ENTITY options.sitecolumn.label "Webbplats">
+<!ENTITY options.actioncolumn.label "Åtgärd">
+<!ENTITY options.add.label "Lägg till">
+<!ENTITY options.add.accesskey "L">
+<!ENTITY options.edit.label "Redigera">
+<!ENTITY options.edit.accesskey "R">
+<!ENTITY options.remove.label "Ta bort">
+<!ENTITY options.remove.accesskey "T">
+<!ENTITY options.removeall.label "Ta bort alla">
+<!ENTITY options.removeall.accesskey "b">
+<!ENTITY options.default.label "Standardåtgärd för ej listade webbplatser:">
+<!ENTITY options.editdefault.label "Redigera">
+<!ENTITY options.editdefault.accesskey "d">
+<!ENTITY edit.title "RefControl: Webbplatsegenskaper">
+<!ENTITY edit.site.label "Webbplats:">
+<!ENTITY edit.site.accesskey "W">
+<!ENTITY edit.action.label "Åtgärd:">
+<!ENTITY edit.action.normal.label "Normal: Skicka den faktiska referenssidan">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blockera: Skicka ingen referenssida">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Tvinga rot: Skicka roten för denna webbplats (http://WEBBPLATS/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "Anpassad:">
+<!ENTITY edit.action.custom.accesskey "A">
+<!ENTITY edit.3rdparty.label "Endast tredje parts-begäranden">
+<!ENTITY edit.3rdparty.accesskey "E">

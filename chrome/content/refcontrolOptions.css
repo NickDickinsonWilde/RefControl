@@ -1,0 +1,5 @@
+dialog { width: 45em; padding-top: 0px; padding-right: 0px; padding-left: 0px; }
+#boxMain { padding-top: 8px; padding-right: 10px; padding-left: 8px; }
+#actionsTree { height: 23em; }
+treechildren::-moz-tree-cell-text(bold) { font-weight: bold; }
+.dialog-button-box { padding-right: 10px; padding-left: 8px; }

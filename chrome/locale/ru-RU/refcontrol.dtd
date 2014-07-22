@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "Настройки RefControl...">
+<!ENTITY toolsmenu.options.accesskey "Н">
+<!ENTITY contextmenu.options.label "Настройки RefControl для данного сайта...">
+<!ENTITY contextmenu.options.accesskey "Д">
+<!ENTITY contextmenu.optionslink.label "Настройки RefControl для ссылок сайта...">
+<!ENTITY contextmenu.optionslink.accesskey "Ы">
+<!ENTITY contextmenu.optionsimage.label "Настройки RefControl для картинок сайта...">
+<!ENTITY contextmenu.optionsimage.accesskey "И">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Настройки RefControl">
+<!ENTITY options.file.label "Файл">
+<!ENTITY options.file.accesskey "Ф">
+<!ENTITY options.import.label "Импорт...">
+<!ENTITY options.import.accesskey "И">
+<!ENTITY options.export.label "Экспорт...">
+<!ENTITY options.export.accesskey "Э">
+<!ENTITY options.close.label "Закрыть">
+<!ENTITY options.close.accesskey "З">
+<!ENTITY options.options.label "Настройки">
+<!ENTITY options.options.accesskey "Н">
+<!ENTITY options.enable.label "Включить RefControl">
+<!ENTITY options.enable.accesskey "В">
+<!ENTITY options.statusbar.label "Показать строку состояния">
+<!ENTITY options.statusbar.accesskey "С">
+<!ENTITY options.contextmenu.label "Показать в контекстном меню">
+<!ENTITY options.contextmenu.accesskey "К">
+<!ENTITY options.statusbar.none.label "Ничего">
+<!ENTITY options.statusbar.none.accesskey "Ч">
+<!ENTITY options.statusbar.icon.label "Иконка">
+<!ENTITY options.statusbar.icon.accesskey "И">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Помощь">
+<!ENTITY options.help.accesskey "Щ">
+<!ENTITY options.refcontrolhelp.label "Помощь RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "Щ">
+<!ENTITY options.about.label "О...">
+<!ENTITY options.about.accesskey "О">
+<!ENTITY options.instructions.label "Вы можете указать Referer для каждого сайта">
+<!ENTITY options.sitecolumn.label "Сайт">
+<!ENTITY options.actioncolumn.label "Действие">
+<!ENTITY options.add.label "Добавить Сайт">
+<!ENTITY options.add.accesskey "Д">
+<!ENTITY options.edit.label "Изменить Сайт">
+<!ENTITY options.edit.accesskey "И">
+<!ENTITY options.remove.label "Удалить Сайт">
+<!ENTITY options.remove.accesskey "У">
+<!ENTITY options.removeall.label "Удалить Все Сайты">
+<!ENTITY options.removeall.accesskey "В">
+<!ENTITY options.default.label "Для неуказанных сайтов по умолчанию:">
+<!ENTITY options.editdefault.label "Правка">
+<!ENTITY options.editdefault.accesskey "Р">
+<!ENTITY edit.title "RefControl свойства Сайта">
+<!ENTITY edit.site.label "Сайт:">
+<!ENTITY edit.site.accesskey "Й">
+<!ENTITY edit.action.label "Действие:">
+<!ENTITY edit.action.normal.label "Нормально - посылать действительный referer">
+<!ENTITY edit.action.normal.accesskey "Н">
+<!ENTITY edit.action.block.label "Блокировать - не посылать referer">
+<!ENTITY edit.action.block.accesskey "Б">
+<!ENTITY edit.action.forge.label "Подделать - посылать корень сайта (http://имя_сайта/)">
+<!ENTITY edit.action.forge.accesskey "Д">
+<!ENTITY edit.action.custom.label "Иное:">
+<!ENTITY edit.action.custom.accesskey "Е">
+<!ENTITY edit.3rdparty.label "3ей стороны запросы только">
+<!ENTITY edit.3rdparty.accesskey "3">

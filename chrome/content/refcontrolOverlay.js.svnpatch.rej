@@ -1,0 +1,245 @@
+--- chrome/content/refcontrolOverlay.js
++++ chrome/content/refcontrolOverlay.js
+@@ -1,18 +1,26 @@
+ 
+ var refcontrolOverlay = {
+ 	
+-	dump: function(aMessage)
++	dump: function dump(aMessage)
+ 	{
+ 		var consoleService = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
+ 		consoleService.logStringMessage("RefControl: " + aMessage);
+ 	},
+ 	
+-	getString: function(sStringName)
++	dumpEx: function dumpEx(aException)
+ 	{
++		var msg = new String(aException);
++		if ('stack' in aException)
++			msg += "\n" + aException.stack;
++		this.dump(msg);
++	},
++
++	getString: function getString(sStringName)
++	{
+ 		return document.getElementById('refcontrol-strings').getString(sStringName);
+ 	},
+ 	
+-	isOurURL: function(sURL)
++	isOurURL: function isOurURL(sURL)
+ 	{
+ 		var svcIO = Components.classes["@mozilla.org/network/io-service;1"].getService(Components.interfaces.nsIIOService);
+ 		try {
+@@ -23,12 +31,12 @@
+ 		return (uri.schemeIs('http') || uri.schemeIs('https'));
+ 	},
+ 
+-	getLinkURL: function(contextMenu)
++	getLinkURL: function getLinkURL(contextMenu)
+ 	{
+ 		return typeof(contextMenu.linkURL) == 'function' ? contextMenu.linkURL() : contextMenu.linkURL;
+ 	},
+ 	
+-	openOptions: function(sSite)
++	openOptions: function openOptions(sSite)
+ 	{
+ 		var winOptions = openDialog('chrome://refcontrol/content/refcontrolOptions.xul', 
+ 					'RefControlOptions', 
+@@ -40,18 +48,18 @@
+ 		}
+ 	},
+ 	
+-	openOptionsURL: function(sURL)
++	openOptionsURL: function openOptionsURL(sURL)
+ 	{
+ 		var svcIO = Components.classes["@mozilla.org/network/io-service;1"].getService(Components.interfaces.nsIIOService);
+ 		this.openOptions(svcIO.newURI(sURL, null, null).host);
+ 	},
+ 
+-	toolsOptions: function()
++	toolsOptions: function toolsOptions()
+ 	{
+ 		this.openOptions();
+ 	},
+ 	
+-	contextOptions: function()
++	contextOptions: function contextOptions()
+ 	{
+ 		var sSite;
+ 		try {
+@@ -61,17 +69,17 @@
+ 		this.openOptions(sSite);
+ 	},
+ 
+-	contextOptionsLink: function()
++	contextOptionsLink: function contextOptionsLink()
+ 	{
+ 		this.openOptionsURL(this.getLinkURL(gContextMenu));
+ 	},
+ 	
+-	contextOptionsImage: function()
++	contextOptionsImage: function contextOptionsImage()
+ 	{
+ 		this.openOptionsURL(gContextMenu.imageURL);
+ 	},
+ 	
+-	onLoad: function()
++	onLoad: function onLoad()
+ 	{
+ 		window.getBrowser().addProgressListener(this);
+ 		document.getElementById("contentAreaContextMenu").addEventListener("popupshowing", this, false);
+@@ -92,7 +100,7 @@
+ 		}
+ 	},
+ 
+-	onPopupShowing: function(e)
++	onPopupShowing: function onPopupShowing(e)
+ 	{
+ 		var bShow = this.bShowContextMenu && 
+ 					!gContextMenu.isTextSelected && !gContextMenu.onLink && !gContextMenu.onImage && !gContextMenu.onTextInput &&
+@@ -110,7 +118,7 @@
+ 	},
+ 
+ 	// Implement nsIEventListener
+-	handleEvent: function(evt)
++	handleEvent: function handleEvent(evt)
+ 	{
+ 		try {
+ 			switch (evt.type)
+@@ -125,42 +133,30 @@
+ 					this.dump("handleEvent: unknown event: " + evt.type);
+ 			}
+ 		} catch (ex) {
+-			this.dump("handleEvent: " + ex);
++			this.dumpEx(ex);
+ 		}
+ 		return undefined;
+ 	},
+ 	
+-	onChangeEnabled: function(oPrefBranch)
++	onChangeEnabled: function onChangeEnabled(oPrefBranch)
+ 	{
+-		try {
+-			this.bEnabled = oPrefBranch.getBoolPref('enabled');
+-			this.updateStatusbar();
+-		} catch (ex) {
+-			this.dump("onChangeEnabled: " + ex);
+-		}
++		this.bEnabled = oPrefBranch.getBoolPref('enabled');
++		this.updateStatusbar();
+ 	},
+ 	
+-	onChangeStatusbar: function(oPrefBranch)
++	onChangeStatusbar: function onChangeStatusbar(oPrefBranch)
+ 	{
+-		try {
+-			this.showStatusbar = oPrefBranch.getIntPref("statusbar");
+-			this.updateStatusbar();
+-		} catch (ex) {
+-			this.dump("onChangeStatusbar: " + ex);
+-		}
++		this.showStatusbar = oPrefBranch.getIntPref("statusbar");
++		this.updateStatusbar();
+ 	},
+ 	
+-	onChangeContextMenu: function(oPrefBranch)
++	onChangeContextMenu: function onChangeContextMenu(oPrefBranch)
+ 	{
+-		try {
+-			this.bShowContextMenu = oPrefBranch.getBoolPref('contextMenu');
+-		} catch (ex) {
+-			this.dump("onChangeContextMenu: " + ex);
+-		}
++		this.bShowContextMenu = oPrefBranch.getBoolPref('contextMenu');
+ 	},
+ 	
+ 	// Implement nsIObserver
+-	observe: function(aSubject, aTopic, aData)
++	observe: function observe(aSubject, aTopic, aData)
+ 	{
+ 		try {
+ 			switch (aTopic)
+@@ -189,45 +185,45 @@
+ 					break;
+ 			}
+ 		} catch (ex) {
+-			this.dump("observe: " + ex);
++			this.dumpEx(ex);
+ 		}
+ 	},
+ 
+-	updateStatusbar: function()
++	updateStatusbar: function updateStatusbar()
+ 	{
+-		try {
+-			var sb = document.getElementById("refcontrol-status");
+-			if (this.showStatusbar == 0)
+-			{
+-					sb.setAttribute("collapsed", true);
+-					return;
+-			}
++		var sb = document.getElementById("refcontrol-status");
++		if (this.showStatusbar == 0)
++		{
++				sb.setAttribute("collapsed", true);
++				return;
++		}
+ 
+-			var theWindow = ("gBrowser" in window) ? window.gBrowser.contentWindow : window.frames[0];
+-			var sRef = theWindow.document.referrer;
+-			var sRefDisp = (sRef ? sRef : this.getString("StatusbarNoReferer"));
+-			var sbIcon = document.getElementById("refcontrol-status-icon");
+-			var sbText = document.getElementById("refcontrol-status-text");
++		var theWindow = ("gBrowser" in window) ? window.gBrowser.contentWindow : window.frames[0];
++		var sRef = theWindow.document.referrer;
++		var sRefDisp = (sRef ? sRef : this.getString("StatusbarNoReferer"));
++		var sbIcon = document.getElementById("refcontrol-status-icon");
++		var sbText = document.getElementById("refcontrol-status-text");
+ 
+-			sbText.value = sRefDisp;
+-			sbText.hidden = (this.showStatusbar < 2);
+-			sbText.setAttribute("tooltiptext", sRefDisp);
+-			sbIcon.src = this.bEnabled ? 
+-						sRef ? 
+-								"chrome://refcontrol/skin/icon_enabled_ref.png" : 
+-								"chrome://refcontrol/skin/icon_enabled.png" :
+-						"chrome://refcontrol/skin/icon_disabled.png";
+-			sbIcon.setAttribute("tooltiptext", sRefDisp);
+-			sb.removeAttribute("collapsed");
+-		} catch (ex) {
+-			this.dump("updateStatusbar: " + ex);
+-		}
++		sbText.value = sRefDisp;
++		sbText.hidden = (this.showStatusbar < 2);
++		sbText.setAttribute("tooltiptext", sRefDisp);
++		sbIcon.src = this.bEnabled ? 
++					sRef ? 
++							"chrome://refcontrol/skin/icon_enabled_ref.png" : 
++							"chrome://refcontrol/skin/icon_enabled.png" :
++					"chrome://refcontrol/skin/icon_disabled.png";
++		sbIcon.setAttribute("tooltiptext", sRefDisp);
++		sb.removeAttribute("collapsed");
+ 	},
+ 	
+ 	// Implement nsIWebProgressListener
+-	onLocationChange: function(aWebProgress, aRequest, aLocation)
++	onLocationChange: function onLocationChange(aWebProgress, aRequest, aLocation)
+ 	{
+-		this.updateStatusbar();
++		try {
++			this.updateStatusbar();
++		} catch (ex) {
++			this.dumpEx(ex);
++		}
+ 	},
+ 	onProgressChange: function(webProgress, request, curSelfProgress, maxSelfProgress, curTotalProgress, maxTotalProgress) {},
+ 	onSecurityChange: function(webProgress, request, state) {},
+@@ -239,7 +235,7 @@
+ 	onLinkIconAvailable: function(a) {},
+ 
+ 	// Implement nsISupports
+-	QueryInterface: function(aIID)
++	QueryInterface: function QueryInterface(aIID)
+ 	{
+ 		if (aIID.equals(Components.interfaces.nsIObserver) ||
+ 			aIID.equals(Components.interfaces.nsIWebProgressListener) ||

@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl オプション...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "このサイトに関する RefControl オプション...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "リンクのサイトのための RefControl オプション...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "画像のサイトのための RefControl オプション...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl オプション">
+<!ENTITY options.file.label "ファイル">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "取り込む...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "書き出す...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "閉じる">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "オプション">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "RefControl を有効にする">
+<!ENTITY options.enable.accesskey "E">
+<!ENTITY options.statusbar.label "ステータスバー表示">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "コンテキストメニューに表示する">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "なし">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "アイコン">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "リファラ">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "ヘルプ">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "RefControl ヘルプ">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "About">
+<!ENTITY options.about.accesskey "A">
+<!ENTITY options.instructions.label "サイトごとに利用されるリファラを指定できます。">
+<!ENTITY options.sitecolumn.label "サイト">
+<!ENTITY options.actioncolumn.label "動作">
+<!ENTITY options.add.label "サイトを追加">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "サイトを編集">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "サイトを除去">
+<!ENTITY options.remove.accesskey "R">
+<!ENTITY options.removeall.label "すべてのサイトを除去">
+<!ENTITY options.removeall.accesskey "l">
+<!ENTITY options.default.label "一覧にないサイトに関する既定値:">
+<!ENTITY options.editdefault.label "編集">
+<!ENTITY options.editdefault.accesskey "d">
+<!ENTITY edit.title "RefControl サイトプロパティ">
+<!ENTITY edit.site.label "サイト:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "動作:">
+<!ENTITY edit.action.normal.label "通常 - 実際のリファラを送信">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "阻止 - リファラを送信しない">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "偽装 - このサイトのルートを送信 (http://SITE/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "カスタム:">
+<!ENTITY edit.action.custom.accesskey "C">
+<!ENTITY edit.3rdparty.label "第三者要求のみ">
+<!ENTITY edit.3rdparty.accesskey "3">

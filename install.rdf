@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>{455D905A-D37C-4643-A9E2-F6FEFAA0424A}</em:id>
+		<em:name>RefControl</em:name>
+		<em:version>0.8.16</em:version>
+		<em:type>2</em:type>
+		<em:description>Control what gets sent as the HTTP Referer on a per-site basis.</em:description>
+		<em:creator>James Abbatiello</em:creator>
+		<em:contributor>Firefox 4.0 compatibility - Nils Maier</em:contributor>
+		<em:contributor>ca-AD Locale - el_libre</em:contributor>
+		<em:contributor>cs-CZ Locale - MartinZubek</em:contributor>
+		<em:contributor>de-DE Locale - Starke</em:contributor>
+		<em:contributor>el-GR Locale - Sonickydon</em:contributor>
+		<em:contributor>es-AR Locale - KNTRO</em:contributor>
+		<em:contributor>es-ES Locale - srxo1978</em:contributor>
+		<em:contributor>fi-FI Locale - kenmooda</em:contributor>
+		<em:contributor>fr-FR Locale - Goofy</em:contributor>
+		<em:contributor>hr-HR Locale - Krcko</em:contributor>
+		<em:contributor>it-IT Locale - MatrixIsAllOver, l0stintranslation</em:contributor>
+		<em:contributor>ja-JP Locale - drry</em:contributor>
+		<em:contributor>ko-KR Locale - alphanis</em:contributor>
+		<em:contributor>nb-NO Locale - bliblok</em:contributor>
+		<em:contributor>nl-NL Locale - Alf</em:contributor>
+		<em:contributor>pl-PL Locale - hiryu</em:contributor>
+		<em:contributor>pt-BR Locale - Rodrigo Bergmann Laurindo</em:contributor>
+		<em:contributor>pt-PT Locale - RedStar</em:contributor>
+		<em:contributor>ru-RU Locale - f0x</em:contributor>
+		<em:contributor>sv-SE Locale - Lakrits</em:contributor>
+		<em:contributor>tr-TR Locale - Celikbas</em:contributor>
+		<em:contributor>uk-UA Locale - MozUA</em:contributor>
+		<em:contributor>zh-CN Locale - web123lai</em:contributor>
+		<em:contributor>zh-TW Locale - 風痕影</em:contributor>
+		<em:homepageURL>http://www.stardrifter.org/refcontrol/</em:homepageURL>
+
+		<em:iconURL>chrome://refcontrol/skin/icon.png</em:iconURL>
+		<em:optionsURL>chrome://refcontrol/content/refcontrolOptions.xul</em:optionsURL>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.5</em:minVersion>
+				<em:maxVersion>10.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>2.0</em:minVersion>
+				<em:maxVersion>2.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+
+</RDF>

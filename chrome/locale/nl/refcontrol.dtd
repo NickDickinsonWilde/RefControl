@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl Opties...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "RefControl opties voor huidige site...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "RefControl opties voor site koppelingen...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "RefControl opties voor site afbeeldingen...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl opties">
+<!ENTITY options.file.label "Bestand">
+<!ENTITY options.file.accesskey "B">
+<!ENTITY options.import.label "Importeren...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exporteren...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Sluiten">
+<!ENTITY options.close.accesskey "S">
+<!ENTITY options.options.label "Opties">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "RefControl inschakelen">
+<!ENTITY options.enable.accesskey "I">
+<!ENTITY options.statusbar.label "Op statusbalk weergeven:">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "In contextmenu weergeven">
+<!ENTITY options.contextmenu.accesskey "c">
+<!ENTITY options.statusbar.none.label "Niets">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "Pictogram">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Verwijzend webadres">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Help">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "RefControl Help">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "Over">
+<!ENTITY options.about.accesskey "O">
+<!ENTITY options.instructions.label "Specificeer het verwijzend webadres dat voor elke site gebruikt wordt:">
+<!ENTITY options.sitecolumn.label "Adres">
+<!ENTITY options.actioncolumn.label "Actie">
+<!ENTITY options.add.label "Toevoegen">
+<!ENTITY options.add.accesskey "T">
+<!ENTITY options.edit.label "Wijzigen">
+<!ENTITY options.edit.accesskey "W">
+<!ENTITY options.remove.label "Verwijderen">
+<!ENTITY options.remove.accesskey "V">
+<!ENTITY options.removeall.label "Alles verwijderen">
+<!ENTITY options.removeall.accesskey "A">
+<!ENTITY options.default.label "Standaard voor sites niet in lijst:">
+<!ENTITY options.editdefault.label "Wijzigen">
+<!ENTITY options.editdefault.accesskey "z">
+<!ENTITY edit.title "RefControl Site Eigenschappen">
+<!ENTITY edit.site.label "Adres:">
+<!ENTITY edit.site.accesskey "A">
+<!ENTITY edit.action.label "Actie:">
+<!ENTITY edit.action.normal.label "Normaal - huidige verwijzend webadres zenden">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Blokkeren - geen verwijzend webadres zenden">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Forceren - root van deze site zenden (http://SITE/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "Aangepast:">
+<!ENTITY edit.action.custom.accesskey "P">
+<!ENTITY edit.3rdparty.label "Alleen 3e partij verzoeken">
+<!ENTITY edit.3rdparty.accesskey "3">

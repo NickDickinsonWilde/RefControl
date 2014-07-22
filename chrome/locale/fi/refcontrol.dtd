@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl-asetukset...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "RefControl-asetukset tälle sivustolle...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "RefControl-asetukset linkin sivustolle...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "RefControl-asetukset kuvan sivustolle...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl-asetukset">
+<!ENTITY options.file.label "Tiedosto">
+<!ENTITY options.file.accesskey "T">
+<!ENTITY options.import.label "Tuo...">
+<!ENTITY options.import.accesskey "T">
+<!ENTITY options.export.label "Vie...">
+<!ENTITY options.export.accesskey "V">
+<!ENTITY options.close.label "Sulje">
+<!ENTITY options.close.accesskey "S">
+<!ENTITY options.options.label "Valinnat">
+<!ENTITY options.options.accesskey "V">
+<!ENTITY options.enable.label "Ota RefContol käyttöön">
+<!ENTITY options.enable.accesskey "O">
+<!ENTITY options.statusbar.label "Tilapalkin näkymä">
+<!ENTITY options.statusbar.accesskey "T">
+<!ENTITY options.contextmenu.label "Näytä pikavalikossa">
+<!ENTITY options.contextmenu.accesskey "p">
+<!ENTITY options.statusbar.none.label "Ei mitään">
+<!ENTITY options.statusbar.none.accesskey "E">
+<!ENTITY options.statusbar.icon.label "Kuvake">
+<!ENTITY options.statusbar.icon.accesskey "K">
+<!ENTITY options.statusbar.referer.label "Viite">
+<!ENTITY options.statusbar.referer.accesskey "V">
+<!ENTITY options.help.label "Ohje">
+<!ENTITY options.help.accesskey "O">
+<!ENTITY options.refcontrolhelp.label "RefControl-ohje">
+<!ENTITY options.refcontrolhelp.accesskey "o">
+<!ENTITY options.about.label "Tietoa">
+<!ENTITY options.about.accesskey "T">
+<!ENTITY options.instructions.label "Voit asettaa Referer-kentässä lähetettävän viitetiedon sivustokohtaisesti.">
+<!ENTITY options.sitecolumn.label "Sivusto">
+<!ENTITY options.actioncolumn.label "Toiminto">
+<!ENTITY options.add.label "Lisää">
+<!ENTITY options.add.accesskey "L">
+<!ENTITY options.edit.label "Muokkaa">
+<!ENTITY options.edit.accesskey "M">
+<!ENTITY options.remove.label "Poista">
+<!ENTITY options.remove.accesskey "P">
+<!ENTITY options.removeall.label "Poista kaikki">
+<!ENTITY options.removeall.accesskey "k">
+<!ENTITY options.default.label "Oletusarvo muille sivustoille:">
+<!ENTITY options.editdefault.label "Muokkaa">
+<!ENTITY options.editdefault.accesskey "u">
+<!ENTITY edit.title "RefControl - Sivuston ominaisuudet">
+<!ENTITY edit.site.label "Sivusto:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Toiminto:">
+<!ENTITY edit.action.normal.label "Normaali - lähetä oikea viite">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Estä - älä lähetä mitään viitettä">
+<!ENTITY edit.action.block.accesskey "E">
+<!ENTITY edit.action.forge.label "Väärennä - lähetä sivuston pääsivu (http://SIVUSTO/)">
+<!ENTITY edit.action.forge.accesskey "V">
+<!ENTITY edit.action.custom.label "Oma valinta:">
+<!ENTITY edit.action.custom.accesskey "O">
+<!ENTITY edit.3rdparty.label "Koskee vain sivuston ulkopuolisia viitteitä">
+<!ENTITY edit.3rdparty.accesskey "u">

@@ -1,0 +1,36 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://refcontrol/content/refcontrolOverlay.xul
+overlay	chrome://navigator/content/navigator.xul	chrome://refcontrol/content/refcontrolOverlay.xul
+content	refcontrol	chrome/content/
+
+skin	refcontrol	classic/1.0	chrome/skin/
+locale	refcontrol	en-US	chrome/locale/en-US/
+locale	refcontrol	ca-AD	chrome/locale/ca-AD/
+locale	refcontrol	cs-CZ	chrome/locale/cs-CZ/
+locale	refcontrol	de		chrome/locale/de/
+locale	refcontrol	el		chrome/locale/el/
+locale	refcontrol	es-AR	chrome/locale/es-AR/
+locale	refcontrol	es-ES	chrome/locale/es-ES/
+locale	refcontrol	fi		chrome/locale/fi/
+locale	refcontrol	fr		chrome/locale/fr/
+locale	refcontrol	hr-HR	chrome/locale/hr-HR/
+locale	refcontrol	it		chrome/locale/it/
+locale	refcontrol	ja-JP	chrome/locale/ja-JP/
+locale	refcontrol	ko-KR	chrome/locale/ko-KR/
+locale	refcontrol	nb-NO	chrome/locale/nb-NO/
+locale	refcontrol	nl		chrome/locale/nl/
+locale	refcontrol	pl		chrome/locale/pl/
+locale	refcontrol	pt-BR	chrome/locale/pt-BR/
+locale	refcontrol	pt-PT	chrome/locale/pt-PT/
+locale	refcontrol	ru-RU	chrome/locale/ru-RU/
+locale	refcontrol	sv-SE	chrome/locale/sv-SE/
+locale	refcontrol	tr		chrome/locale/tr/
+locale	refcontrol	uk-UA	chrome/locale/uk-UA/
+locale	refcontrol	zh-CN	chrome/locale/zh-CN/
+locale	refcontrol	zh-TW	chrome/locale/zh-TW/
+
+style chrome://global/content/customizeToolbar.xul chrome://refcontrol/skin/toolbar_button.css
+
+component {07C3DD15-0F44-4723-94DE-720B3B2FF9AF} components/refcontrolComp.js
+contract @mozilla.org/refcontrol;1 {07C3DD15-0F44-4723-94DE-720B3B2FF9AF}
+category profile-after-change @mozilla.org/refcontrol;1 @mozilla.org/refcontrol;1

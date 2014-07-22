@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "Opciones de RefControl...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "Opciones de RefControl para este sitio web...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "Opciones de RefControl para el sitio web del enlace...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "Opciones de RefControl para el sitio web de la imagen...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "Opciones de RefControl">
+<!ENTITY options.file.label "Archivo">
+<!ENTITY options.file.accesskey "A">
+<!ENTITY options.import.label "Importar...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Exportar...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Cerrar">
+<!ENTITY options.close.accesskey "C">
+<!ENTITY options.options.label "Opciones">
+<!ENTITY options.options.accesskey "O">
+<!ENTITY options.enable.label "Habilitar RefControl">
+<!ENTITY options.enable.accesskey "H">
+<!ENTITY options.statusbar.label "Visualización de la barra de estado">
+<!ENTITY options.statusbar.accesskey "V">
+<!ENTITY options.contextmenu.label "Mostrar en menú contextual">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "Nada">
+<!ENTITY options.statusbar.none.accesskey "N">
+<!ENTITY options.statusbar.icon.label "Ícono">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Origen del visitante">
+<!ENTITY options.statusbar.referer.accesskey "r">
+<!ENTITY options.help.label "Ayuda">
+<!ENTITY options.help.accesskey "y">
+<!ENTITY options.refcontrolhelp.label "Ayuda de RefControl">
+<!ENTITY options.refcontrolhelp.accesskey "y">
+<!ENTITY options.about.label "Acerca de">
+<!ENTITY options.about.accesskey "A">
+<!ENTITY options.instructions.label "Podés especificar el origen del visitante, el cual será usado por cada sitio web.">
+<!ENTITY options.sitecolumn.label "Sitio web">
+<!ENTITY options.actioncolumn.label "Acción">
+<!ENTITY options.add.label "Agregar sitio web">
+<!ENTITY options.add.accesskey "A">
+<!ENTITY options.edit.label "Editar sitio web">
+<!ENTITY options.edit.accesskey "E">
+<!ENTITY options.remove.label "Quitar sitio web">
+<!ENTITY options.remove.accesskey "Q">
+<!ENTITY options.removeall.label "Quitar todos los sitios web">
+<!ENTITY options.removeall.accesskey "t">
+<!ENTITY options.default.label "Predeterminado para los sitios web no listados:">
+<!ENTITY options.editdefault.label "Editar">
+<!ENTITY options.editdefault.accesskey "d">
+<!ENTITY edit.title "Propiedades del sitio web">
+<!ENTITY edit.site.label "Sitio web:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Acción:">
+<!ENTITY edit.action.normal.label "Normal: enviar el origen de visitante verdadero">
+<!ENTITY edit.action.normal.accesskey "N">
+<!ENTITY edit.action.block.label "Bloquear: no enviar ningún origen de visitante">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Raíz del dominio visitado: enviar la raíz de este sitio (http://SITIO/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "Personalizado:">
+<!ENTITY edit.action.custom.accesskey "P">
+<!ENTITY edit.3rdparty.label "Solamente peticiones de terceros">
+<!ENTITY edit.3rdparty.accesskey "3">

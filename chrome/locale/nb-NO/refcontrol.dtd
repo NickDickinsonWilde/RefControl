@@ -1,0 +1,67 @@
+<!ENTITY toolsmenu.options.label "RefControl-instillinger...">
+<!ENTITY toolsmenu.options.accesskey "R">
+<!ENTITY contextmenu.options.label "RefControl-instillinger for Denne Siden...">
+<!ENTITY contextmenu.options.accesskey "C">
+<!ENTITY contextmenu.optionslink.label "RefControl-instillinger for Lenkens Side...">
+<!ENTITY contextmenu.optionslink.accesskey "f">
+<!ENTITY contextmenu.optionsimage.label "RefControl-instillinger for Bildets Side...">
+<!ENTITY contextmenu.optionsimage.accesskey "R">
+<!ENTITY toolbarbutton.label "RefControl">
+<!ENTITY toolbarbutton.tooltip "RefControl">
+<!ENTITY options.title "RefControl-instillinger">
+<!ENTITY options.file.label "Fil">
+<!ENTITY options.file.accesskey "F">
+<!ENTITY options.import.label "Importer...">
+<!ENTITY options.import.accesskey "I">
+<!ENTITY options.export.label "Eksporter...">
+<!ENTITY options.export.accesskey "E">
+<!ENTITY options.close.label "Lukk">
+<!ENTITY options.close.accesskey "L">
+<!ENTITY options.options.label "Instillinger">
+<!ENTITY options.options.accesskey "I">
+<!ENTITY options.enable.label "Skru på RefControl">
+<!ENTITY options.enable.accesskey "S">
+<!ENTITY options.statusbar.label "Statusbar vis">
+<!ENTITY options.statusbar.accesskey "S">
+<!ENTITY options.contextmenu.label "Show in Context Menu">
+<!ENTITY options.contextmenu.accesskey "C">
+<!ENTITY options.statusbar.none.label "Ingen">
+<!ENTITY options.statusbar.none.accesskey "I">
+<!ENTITY options.statusbar.icon.label "Ikon">
+<!ENTITY options.statusbar.icon.accesskey "I">
+<!ENTITY options.statusbar.referer.label "Referer">
+<!ENTITY options.statusbar.referer.accesskey "R">
+<!ENTITY options.help.label "Hjelp">
+<!ENTITY options.help.accesskey "H">
+<!ENTITY options.refcontrolhelp.label "Refcontrol Hjelp">
+<!ENTITY options.refcontrolhelp.accesskey "H">
+<!ENTITY options.about.label "Om">
+<!ENTITY options.about.accesskey "O">
+<!ENTITY options.instructions.label "Du kan spesifisere hvilken Referer som skal brukes for hver side.">
+<!ENTITY options.sitecolumn.label "Side">
+<!ENTITY options.actioncolumn.label "Handling">
+<!ENTITY options.add.label "Legg Til Side">
+<!ENTITY options.add.accesskey "L">
+<!ENTITY options.edit.label "Rediger Side">
+<!ENTITY options.edit.accesskey "R">
+<!ENTITY options.remove.label "Fjern Side">
+<!ENTITY options.remove.accesskey "F">
+<!ENTITY options.removeall.label "Fjern Alle Sidene">
+<!ENTITY options.removeall.accesskey "F">
+<!ENTITY options.default.label "Standard for sider som ikke er oppført:">
+<!ENTITY options.editdefault.label "Rediger">
+<!ENTITY options.editdefault.accesskey "r">
+<!ENTITY edit.title "RefControl Sideinstillinger">
+<!ENTITY edit.site.label "Side:">
+<!ENTITY edit.site.accesskey "S">
+<!ENTITY edit.action.label "Handling;">
+<!ENTITY edit.action.normal.label "Vanlig - send den faktiskere referer-en">
+<!ENTITY edit.action.normal.accesskey "V">
+<!ENTITY edit.action.block.label "Blokker - ikke send noen referer">
+<!ENTITY edit.action.block.accesskey "B">
+<!ENTITY edit.action.forge.label "Forfalsk - send roten av denne siden (http://SIDE/)">
+<!ENTITY edit.action.forge.accesskey "F">
+<!ENTITY edit.action.custom.label "Egendefinert:">
+<!ENTITY edit.action.custom.accesskey "E">
+<!ENTITY edit.3rdparty.label "Kun 3. Parts forespørsler.">
+<!ENTITY edit.3rdparty.accesskey "K">

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://refcontrol/skin/toolbar_button.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://refcontrol/locale/refcontrol.dtd">
+
+<overlay id="RefControlOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://refcontrol/content/refcontrolOverlay.js"/>
+	<script type="application/x-javascript" src="chrome://refcontrol/content/refcontrolPrefs.js"/>
+
+	<menupopup id="menu_ToolsPopup">
+		<menuseparator id="refcontrol_tools_sep" insertbefore="prefSep"/>
+		<menuitem id="refcontrol_tools_options"
+				label="&toolsmenu.options.label;"
+				accesskey="&toolsmenu.options.accesskey;"
+				oncommand="refcontrolOverlay.toolsOptions();"
+				insertbefore="prefSep"/>
+	</menupopup>
+
+	<popup id="contentAreaContextMenu">
+		<menuseparator id="refcontrol_sep" />
+		<menuitem id="refcontrol_options"
+				label="&contextmenu.options.label;"
+				accesskey="&contextmenu.options.accesskey;"
+				oncommand="refcontrolOverlay.contextOptions();"/>
+		<menuitem id="refcontrol_options_link"
+				hidden="true"
+				label="&contextmenu.optionslink.label;"
+				accesskey="&contextmenu.optionslink.accesskey;"
+				oncommand="refcontrolOverlay.contextOptionsLink();"/>
+		<menuitem id="refcontrol_options_image"
+				hidden="true"
+				label="&contextmenu.optionsimage.label;"
+				accesskey="&contextmenu.optionsimage.accesskey;"
+				oncommand="refcontrolOverlay.contextOptionsImage();"/>
+	</popup>
+
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton
+				id="refcontrol-toolbarbutton"
+				class="toolbarbutton-1 chromeclass-toolbar-additional"
+				type="menu-button"
+				label="&toolbarbutton.label;"
+				tooltiptext="&toolbarbutton.tooltip;"
+				oncommand="refcontrolPrefs.toggleBooleanPref(event)">
+			<menupopup id="refcontrol-popupOptions" onpopupshowing="return refcontrolPrefs.onPopupShowing(event)">
+				<menuitem id="refcontrol-mnuOptions"
+						label="&toolsmenu.options.label;"
+						accesskey="&toolsmenu.options.accesskey;"
+						style="font-weight: bold;"
+						oncommand="refcontrolOverlay.toolsOptions();"/>
+				<menuitem id="refcontrol-mnuSiteOptions"
+						label="&contextmenu.options.label;"
+						accesskey="&contextmenu.options.accesskey;"
+						oncommand="refcontrolOverlay.contextOptions();"/>
+
+				<menuseparator/>
+
+				<menu id="refcontrol-mnuStatusbar" label="&options.statusbar.label;" accesskey="&options.statusbar.accesskey;">
+					<menupopup>
+						<menuitem type="radio"
+								name="statusbar"
+								value="0"
+								id="refcontrol-mnuStatusbarNone"
+								label="&options.statusbar.none.label;"
+								accesskey="&options.statusbar.none.accesskey;"
+								oncommand="refcontrolPrefs.onChangeRadioPref(event)"/>
+						<menuitem type="radio"
+								name="statusbar"
+								value="2"
+								id="refcontrol-mnuStatusbarReferer"
+								label="&options.statusbar.referer.label;"
+								accesskey="&options.statusbar.referer.accesskey;"
+								oncommand="refcontrolPrefs.onChangeRadioPref(event)"/>
+					</menupopup>
+				</menu>
+				<menuitem type="checkbox"
+						value="contextMenu"
+						id="refcontrol-mnuContextMenu" 
+						label="&options.contextmenu.label;"
+						accesskey="&options.contextmenu.accesskey;"
+						oncommand="refcontrolPrefs.onChangeCheckboxPref(event)"/>
+			</menupopup>
+		</toolbarbutton>
+	</toolbarpalette>
+
+	<statusbar id="status-bar">
+		<stringbundle id="refcontrol-strings" src="chrome://refcontrol/locale/refcontrol.properties"/>
+		<statusbarpanel id="refcontrol-status"
+					ondblclick="if (event.button == 0) refcontrolOverlay.toolsOptions();"
+					context="_child"
+					insertafter="statusbar-progresspanel"
+					maxwidth="250">
+			<label id="refcontrol-status-text" class="statusbarpanel-text" value="" crop="right" flex="1"/>
+		</statusbarpanel>
+	</statusbar>
+
+</overlay>
