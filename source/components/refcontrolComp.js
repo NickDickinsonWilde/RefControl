@@ -1,3 +1,6 @@
+Components.utils.import("resource://gre/modules/devtools/Console.jsm");
+console.log("RefControl: Initializing");
+
 function refcontrolObserver() {}
 refcontrolObserver.prototype = {
 	
@@ -6,8 +9,10 @@ refcontrolObserver.prototype = {
 	
 	dump: function dump(aMessage)
 	{
-		var consoleService = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
-		consoleService.logStringMessage("RefControl: " + aMessage);
+		//var consoleService = Components.classes["@mozilla.org/consoleservice;1"].getService(Components.interfaces.nsIConsoleService);
+		//consoleService.logStringMessage("RefControl: " + aMessage);
+		Components.utils.import("resource://gre/modules/devtools/Console.jsm");
+		console.log("RefControlb: " + aMessage);
 	},
 	
 	dumpEx: function dumpEx(aException)
